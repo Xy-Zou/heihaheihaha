@@ -4,6 +4,6 @@ channels:
   - defaults
 dependencies:
   - r-base
-    - r-dplyr             
+  - r-dplyr             
   
   - htslib
