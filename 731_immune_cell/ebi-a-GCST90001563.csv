@@ -1,0 +1,5 @@
+beta.exposure,samplesize.exposure,pval.exposure,se.exposure,chr.exposure,pos.exposure,id.exposure,SNP,effect_allele.exposure,other_allele.exposure,eaf.exposure,exposure,mr_keep.exposure,pval_origin.exposure,data_source.exposure
+-0.1874,3395,6.51193e-06,0.0415,2,8430901,ebi-a-GCST90001563,rs62107683,G,C,0.0708, || id:ebi-a-GCST90001563,TRUE,reported,igd
+1.671,3395,7.41908e-06,0.3724,3,193372154,ebi-a-GCST90001563,rs149297162,A,G,0.0012, || id:ebi-a-GCST90001563,TRUE,reported,igd
+0.2144,3395,8.831e-06,0.04818,5,121763931,ebi-a-GCST90001563,rs71592595,C,T,0.0539, || id:ebi-a-GCST90001563,TRUE,reported,igd
+1.119,3395,5.77006e-07,0.2235,14,95378018,ebi-a-GCST90001563,rs149764572,G,A,0.0027, || id:ebi-a-GCST90001563,TRUE,reported,igd
