@@ -1,5 +1,6 @@
 # heihaheihaha
 ##直接分析-----
+```r
 # 2.Iterate over all immune cells data to get MR analysis results
 #2.1
 setwd()
@@ -40,3 +41,4 @@ for (i in imc ) {
 
 # 2.6 Output the results of Mendelian randomization
 write.csv(result,"MRresults.csv",sep = "")
+```
