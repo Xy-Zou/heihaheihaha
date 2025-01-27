@@ -4,8 +4,6 @@ channels:
   - defaults
 dependencies:
   - r-base
+    - r-dplyr             
   
-  - r-two-sample-mr 
-  - r-dplyr             
-  
-  - tabix
+  - htslib
