@@ -1,4 +1,12 @@
 # heihaheihaha
+```bash
+mamba env create -f environment.yml
+mamba activate mr_env
+```
+Test R packages
+```bash
+Rscript -e "library(TwoSampleMR); library(dplyr)"
+```
 ##直接分析-----
 ```r
 # 2.Iterate over all immune cells data to get MR analysis results
