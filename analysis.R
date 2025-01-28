@@ -1,7 +1,7 @@
 #! /usr/bin/env Rscript
 
 # ========== 0. 工作路径与环境 ========== 
-setwd("/Users/wilian/git/heihaheihaha")
+setwd("~/git/heihaheihaha")
 
 # ========== 1. 加载所需 R 包 ========== 
 if (!requireNamespace("R.utils", quietly = TRUE)) {

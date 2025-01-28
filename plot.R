@@ -5,7 +5,7 @@
 # ======================== #
 
 # 0. 设置工作路径
-setwd("/Users/wilian/git/heihaheihaha")
+setwd("~/git/heihaheihaha")
 
 # 1. 加载所需的 R 包
 required_packages <- c("dplyr", "ggplot2", "readr", "stringr", "ggpubr", "cowplot")
