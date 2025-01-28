@@ -1,0 +1,13 @@
+library(TwoSampleMR)
+library(ieugwasr)
+library(VariantAnnotation)
+library(gwasvcf)
+Sys.setenv(OPENGWAS_JWT="eyJhbGciOiJSUzI1NiIsImtpZCI6ImFwaS1qd3QiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhcGkub3Blbmd3YXMuaW8iLCJhdWQiOiJhcGkub3Blbmd3YXMuaW8iLCJzdWIiOiI4MzAxMjEwMzAxQGNzdS5lZHUuY24iLCJpYXQiOjE3Mzc3OTk3MTMsImV4cCI6MTczOTAwOTMxM30.k83jMkhgzN723wiIDtBHMayjLBaXblxvKq3kzt4YEN4gmq10BsZ9UZPXYKsRf91mrtH9zzHaYKX6wHPQjt-hCWebjJicVPqUHeLqbYoi3nf3jQkCWyiZvpvzuotRA2PA46mbN712xAnAxlGNz3
+           3EapvaKTT8ob0-7A6JbTZRTjegFz0mN6hKL7m5mbZHAlqaYeOdeVgjLBoCBbhKWDD9kH3tqQoNYts29iyHJaMxzuchb3XFWML7eC40tjvUttGUPKqS63vJiIBITz1Bp9pC2MKqxbQ4mpyhqBzydONFRJCCnJe3YjuY_SocKCsgxMdXq_0d-fOnK9jIbV_mJwK9GA")
+exposure_data <- extract_instruments(
+  outcomes = "ieu-b-10",  # 指定 GWAS 数据集
+  p1 = 1e-06,                       # 过滤 SNP 的 p 值阈值
+  clump = TRUE,                     # 进行 SNP clumping
+  r2 = 0.001,                       # clumping 的 r^2 阈值
+  kb = 10000,
+  opengwas_jwt= ieugwasr::get_opengwas_jwt())         
