@@ -14,11 +14,14 @@ suppressPackageStartupMessages({
   library(dplyr)
 })
 
+# 如果需要 MR-PRESSO，请确保安装/加载
+if (!requireNamespace("MRPRESSO", quietly = TRUE)) {
+  install.packages("MRPRESSO", repos = "http://cran.us.r-project.org")
+}
+library(MRPRESSO)
+
 # 并行包
-library(parallel)   # 提供 mclapply
-# 或者你也可以这样：
-# library(doParallel)
-# registerDoParallel(cores = detectCores())
+library(parallel)
 
 # ========== 2. 读取 immune cell GWAS ID 列表 ========== 
 immune_list_file <- "data/731_immune_cell/ICgwasid.csv"
@@ -64,7 +67,6 @@ for (out_file in outcome_files) {
   outcome_label <- gsub("\\.gz$", "", out_file)
   
   # ========== 3.1 一次性读取该 outcome 文件中所有需要的 SNP ========== 
-  # 注意: 这里只调用一次 read_outcome_data()， snps 参数传入 all_exposure_snps
   outcome_dat_all <- read_outcome_data(
     snps               = all_exposure_snps,
     filename           = file.path("data", out_file),
@@ -78,7 +80,6 @@ for (out_file in outcome_files) {
     pval_col           = "pval"
   )
   
-  # 如果没有任何 SNP 被匹配到，那么这个 outcome 文件就可以直接跳过
   if (nrow(outcome_dat_all) == 0) {
     message("该结局文件中没有匹配到任何需要的 SNP，跳过...")
     next
@@ -89,15 +90,13 @@ for (out_file in outcome_files) {
   outcome_dat_all$outcome    <- outcome_label
   
   # ========== 3.2 并行处理每一个 exposure ========== 
-  # 注意，这里我们用 mclapply 并行，默认为所有可用核心
-  # mclapply 在 macOS / Linux 下可以用多核并行；Windows 下则只能用 mc.cores=1 或切换其他并行方式
+  # 这里把 mc.cores 限制为 4
   final_results_list <- mclapply(
     X         = imc_ids,
     FUN       = function(exposure_id) {
       
       exposure_file_path <- file.path("data", "731_immune_cell", paste0(exposure_id, ".csv"))
       if (!file.exists(exposure_file_path)) {
-        # 直接返回NULL, 后面会滤掉
         message("[警告] 找不到暴露文件: ", exposure_file_path, "，跳过...")
         return(NULL)
       }
@@ -120,7 +119,6 @@ for (out_file in outcome_files) {
       outcome_subset <- subset(outcome_dat_all, SNP %in% snps_needed)
       
       if (nrow(outcome_subset) == 0) {
-        # 没有匹配到的话返回空
         return(NULL)
       }
       
@@ -131,17 +129,88 @@ for (out_file in outcome_files) {
         action       = 2
       )
       
-      # 只做 IVW
-      mr_result <- mr(harm_dat, method_list = c("mr_ivw"))
+      # 如果有效 SNP 太少，也可能导致后面某些方法报错，可以根据需要做过滤
+      if (nrow(harm_dat) < 3) {
+        # MR-Egger 和其他一些方法需要至少 3~4 个及以上的独立 SNP
+        # 这里可根据研究需要选择是直接返回 NULL 或只做 IVW 等
+        # 此处直接返回 NULL
+        return(NULL)
+      }
       
-      # 转换为 OR
+      # ========== 3.2.1: 使用 TwoSampleMR 包内置的 IVW / Egger / Weighted median 等方法 ========== 
+      mr_result <- mr(
+        harm_dat,
+        method_list = c(
+          "mr_ivw",                 # IVW 
+          "mr_egger_regression",    # MR-Egger
+          "mr_weighted_median"      # Weighted median
+          # 如果还想加 Weighted mode，可加 "mr_weighted_mode" 等
+        )
+      )
       mr_result_or <- generate_odds_ratios(mr_result)
-      return(mr_result_or)
+      
+      # ========== 3.2.2: 使用 MRPRESSO 包进行 MR-PRESSO ========== 
+      # 注意：MR-PRESSO 通常需要对数据做一下要求，比如暴露、结局的beta和se命名等
+      #       这里示例仅做演示，输出会在 $`Main MR results` 里
+      presso_res <- NULL
+      try({
+        presso_out <- mr_presso(
+          BetaOutcome    = "beta.outcome", 
+          BetaExposure   = "beta.exposure",
+          SdOutcome      = "se.outcome", 
+          SdExposure     = "se.exposure", 
+          OUTLIERtest    = TRUE,
+          DISTORTIONtest = TRUE,
+          data           = harm_dat,
+          NbDistribution = 1000, 
+          SignifThreshold = 0.05
+        )
+        
+        # 提取 MR-PRESSO 的主要结果
+        # 一般在 presso_out$`Main MR results` 中
+        presso_main <- as.data.frame(presso_out$`Main MR results`)
+        
+        # 如果结果不是空，可以整理成与 TwoSampleMR 返回的结果类似的格式
+        if (nrow(presso_main) > 0) {
+          # 对 method, nsnp, b, se, pval 做简单映射
+          # 下面的列名可能会随 MRPRESSO 版本变化，需据实际情况调整
+          temp_df <- data.frame(
+            outcome       = unique(harm_dat$outcome),
+            exposure      = unique(harm_dat$exposure),
+            method        = paste0("MR-PRESSO (", rownames(presso_main), ")"),
+            nsnp          = length(unique(harm_dat$SNP)),
+            b             = as.numeric(presso_main[ , "Causal.Estimate"]),
+            se            = as.numeric(presso_main[ , "Sd"]),
+            pval          = as.numeric(presso_main[ , "Pvalue"]),
+            id.outcome    = unique(harm_dat$id.outcome),
+            id.exposure   = unique(harm_dat$id.exposure)
+          )
+          
+          # MR-PRESSO 的效应量如果需要转换 OR，就要自行 exponentiate
+          # 这里同样做成 OR，保持与 generate_odds_ratios 的输出一致
+          temp_df$or    <- exp(temp_df$b)
+          temp_df$or_lci95 <- exp(temp_df$b - 1.96 * temp_df$se)
+          temp_df$or_uci95 <- exp(temp_df$b + 1.96 * temp_df$se)
+          
+          presso_res <- temp_df
+        }
+      }, silent = TRUE)
+      
+      # 将所有方法的结果合并
+      # mr_result_or 是 TwoSampleMR 的结果
+      # presso_res   是 MR-PRESSO 结果
+      if (is.null(presso_res)) {
+        final_res <- mr_result_or
+      } else {
+        final_res <- bind_rows(mr_result_or, presso_res)
+      }
+      
+      return(final_res)
     },
-    mc.cores = detectCores()  # 或者手动指定一个合适的核心数
+    mc.cores = 4  # <<--- 这里手动限定为4个核心并行
   )
   
-  # 把 list 合并为一个 data.frame
+  # 合并为 data.frame
   final_results <- bind_rows(final_results_list)
   
   # ========== 3.3 写出结果 ========== 
