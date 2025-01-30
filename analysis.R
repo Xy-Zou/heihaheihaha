@@ -209,8 +209,8 @@ for (out_file in outcome_files) {
     },
     mc.cores = 4  # <<--- 这里手动限定为4个核心并行
     #windows
-    #library(parallel)
-    #available_cores <- detectCores()
+    #library(parallel),
+    #available_cores <- detectCores(),
     #num_cores <- 1 # <<--- 这里手动限定为1个核心
   )
   
