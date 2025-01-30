@@ -1,0 +1,191 @@
+Trait type,Panel,Statistical trait name,Trait,tr,id
+Relative count,B cell,BC_Trait1,IgD+ %B cell,GCST90001391,ebi-a-GCST90001391
+Absolute count,B cell,BC_Trait10,IgD+ CD38br AC,GCST90001392,ebi-a-GCST90001392
+Relative count,B cell,BC_Trait11,IgD+ CD38dim %B cell,GCST90001393,ebi-a-GCST90001393
+Absolute count,B cell,BC_Trait12,IgD+ CD38dim AC,GCST90001394,ebi-a-GCST90001394
+Relative count,B cell,BC_Trait13,IgD+ CD38- %B cell,GCST90001395,ebi-a-GCST90001395
+Absolute count,B cell,BC_Trait14,IgD+ CD38- AC,GCST90001396,ebi-a-GCST90001396
+Relative count,B cell,BC_Trait17,Unsw mem %B cell,GCST90001397,ebi-a-GCST90001397
+Absolute count,B cell,BC_Trait18,Unsw mem AC,GCST90001398,ebi-a-GCST90001398
+Relative count,B cell,BC_Trait19,IgD- CD27- %B cell,GCST90001399,ebi-a-GCST90001399
+Absolute count,B cell,BC_Trait2,IgD+ AC,GCST90001400,ebi-a-GCST90001400
+Absolute count,B cell,BC_Trait20,IgD- CD27- AC,GCST90001401,ebi-a-GCST90001401
+Relative count,B cell,BC_Trait21,Sw mem %B cell,GCST90001402,ebi-a-GCST90001402
+Absolute count,B cell,BC_Trait22,Sw mem AC,GCST90001403,ebi-a-GCST90001403
+Relative count,B cell,BC_Trait23,PB/PC %B cell,GCST90001404,ebi-a-GCST90001404
+Absolute count,B cell,BC_Trait24,PB/PC AC,GCST90001405,ebi-a-GCST90001405
+Relative count,B cell,BC_Trait25,Memory B cell %B cell,GCST90001406,ebi-a-GCST90001406
+Absolute count,B cell,BC_Trait26,Memory B cell AC,GCST90001407,ebi-a-GCST90001407
+Relative count,B cell,BC_Trait27,Naive-mature B cell %B cell,GCST90001408,ebi-a-GCST90001408
+Absolute count,B cell,BC_Trait28,Naive-mature B cell AC,GCST90001409,ebi-a-GCST90001409
+Relative count,B cell,BC_Trait3,IgD- CD38br %B cell,GCST90001410,ebi-a-GCST90001410
+Relative count,B cell,BC_Trait31,IgD+ CD24+ %B cell,GCST90001411,ebi-a-GCST90001411
+Absolute count,B cell,BC_Trait32,IgD+ CD24+ AC,GCST90001412,ebi-a-GCST90001412
+Relative count,B cell,BC_Trait33,IgD- CD24- %B cell,GCST90001413,ebi-a-GCST90001413
+Absolute count,B cell,BC_Trait34,IgD- CD24- AC,GCST90001414,ebi-a-GCST90001414
+Relative count,B cell,BC_Trait35,IgD+ CD24- %B cell,GCST90001415,ebi-a-GCST90001415
+Absolute count,B cell,BC_Trait36,IgD+ CD24- AC,GCST90001416,ebi-a-GCST90001416
+Relative count,B cell,BC_Trait37,CD24+ CD27+ %B cell,GCST90001417,ebi-a-GCST90001417
+Absolute count,B cell,BC_Trait38,CD24+ CD27+ AC,GCST90001418,ebi-a-GCST90001418
+Relative count,B cell,BC_Trait39,CD20- %B cell,GCST90001419,ebi-a-GCST90001419
+Absolute count,B cell,BC_Trait4,IgD- CD38br AC,GCST90001420,ebi-a-GCST90001420
+Absolute count,B cell,BC_Trait40,CD20- AC,GCST90001421,ebi-a-GCST90001421
+Relative count,B cell,BC_Trait43,CD20- CD38- %B cell,GCST90001422,ebi-a-GCST90001422
+Absolute count,B cell,BC_Trait44,CD20- CD38- AC,GCST90001423,ebi-a-GCST90001423
+Relative count,B cell,BC_Trait46,IgD+ %Lymphocyte,GCST90001424,ebi-a-GCST90001424
+Relative count,B cell,BC_Trait47,IgD- CD38br %lymphocyte,GCST90001425,ebi-a-GCST90001425
+Relative count,B cell,BC_Trait48,IgD- CD38dim %lymphocyte,GCST90001426,ebi-a-GCST90001426
+Relative count,B cell,BC_Trait49,IgD- CD38- %lymphocyte,GCST90001427,ebi-a-GCST90001427
+Relative count,B cell,BC_Trait5,IgD- CD38dim %B cell,GCST90001428,ebi-a-GCST90001428
+Relative count,B cell,BC_Trait50,IgD+ CD38br %lymphocyte,GCST90001429,ebi-a-GCST90001429
+Relative count,B cell,BC_Trait51,IgD+ CD38dim %lymphocyte,GCST90001430,ebi-a-GCST90001430
+Relative count,B cell,BC_Trait52,IgD+ CD38- %lymphocyte,GCST90001431,ebi-a-GCST90001431
+Relative count,B cell,BC_Trait54,Unsw Mem %lymphocyte,GCST90001432,ebi-a-GCST90001432
+Relative count,B cell,BC_Trait55,IgD- CD27- %lymphocyte,GCST90001433,ebi-a-GCST90001433
+Relative count,B cell,BC_Trait56,Sw mem %lymphocyte,GCST90001434,ebi-a-GCST90001434
+Relative count,B cell,BC_Trait57,PB/PC %lymphocyte,GCST90001435,ebi-a-GCST90001435
+Relative count,B cell,BC_Trait58,Memory B cell %lymphocyte,GCST90001436,ebi-a-GCST90001436
+Relative count,B cell,BC_Trait59,Naive-mature B cell %lymphocyte,GCST90001437,ebi-a-GCST90001437
+Absolute count,B cell,BC_Trait6,IgD- CD38dim AC,GCST90001438,ebi-a-GCST90001438
+Relative count,B cell,BC_Trait61,IgD+ CD24+ %lymphocyte,GCST90001439,ebi-a-GCST90001439
+Relative count,B cell,BC_Trait62,IgD- CD24- %lymphocyte,GCST90001440,ebi-a-GCST90001440
+Relative count,B cell,BC_Trait63,IgD+ CD24- %lymphocyte,GCST90001441,ebi-a-GCST90001441
+Relative count,B cell,BC_Trait64,CD24+ CD27+ %lymphocyte,GCST90001442,ebi-a-GCST90001442
+Relative count,B cell,BC_Trait65,CD20- %lymphocyte,GCST90001443,ebi-a-GCST90001443
+Relative count,B cell,BC_Trait67,CD20- CD38- %lymphocyte,GCST90001444,ebi-a-GCST90001444
+Relative count,B cell,BC_Trait7,IgD- CD38- %B cell,GCST90001445,ebi-a-GCST90001445
+Absolute count,B cell,BC_Trait8,IgD- CD38- AC,GCST90001446,ebi-a-GCST90001446
+Relative count,B cell,BC_Trait9,IgD+ CD38br %B cell,GCST90001447,ebi-a-GCST90001447
+Relative count,B cell,N_BC_Trait3,Transitional %B cell,GCST90001576,ebi-a-GCST90001576
+Absolute count,B cell,N_BC_Trait4,Transitional AC,GCST90001577,ebi-a-GCST90001577
+Relative count,B cell,N_BC_Trait6,Transitional %lymphocyte,GCST90001578,ebi-a-GCST90001578
+MFI,B cell,Bcells.trait111,BAFF-R on CD20- CD38-,GCST90001701,ebi-a-GCST90001701
+MFI,B cell,Bcells.trait112,BAFF-R on CD24+ CD27+,GCST90001702,ebi-a-GCST90001702
+MFI,B cell,Bcells.trait137,BAFF-R on IgD+ CD24+,GCST90001703,ebi-a-GCST90001703
+MFI,B cell,Bcells.trait138,BAFF-R on IgD+ CD24-,GCST90001704,ebi-a-GCST90001704
+MFI,B cell,Bcells.trait139,BAFF-R on IgD+ CD38-,GCST90001705,ebi-a-GCST90001705
+MFI,B cell,Bcells.trait140,BAFF-R on IgD+ CD38- naive,GCST90001706,ebi-a-GCST90001706
+MFI,B cell,Bcells.trait141,BAFF-R on IgD+ CD38- unsw mem,GCST90001707,ebi-a-GCST90001707
+MFI,B cell,Bcells.trait142,BAFF-R on IgD+ CD38br,GCST90001708,ebi-a-GCST90001708
+MFI,B cell,Bcells.trait143,BAFF-R on IgD+ CD38dim,GCST90001709,ebi-a-GCST90001709
+MFI,B cell,Bcells.trait147,BAFF-R on IgD- CD24-,GCST90001710,ebi-a-GCST90001710
+MFI,B cell,Bcells.trait148,BAFF-R on IgD- CD27-,GCST90001711,ebi-a-GCST90001711
+MFI,B cell,Bcells.trait149,BAFF-R on IgD- CD38-,GCST90001712,ebi-a-GCST90001712
+MFI,B cell,Bcells.trait150,BAFF-R on IgD- CD38br,GCST90001713,ebi-a-GCST90001713
+MFI,B cell,Bcells.trait151,BAFF-R on IgD- CD38dim,GCST90001714,ebi-a-GCST90001714
+MFI,B cell,Bcells.trait154,BAFF-R on memory B cell,GCST90001715,ebi-a-GCST90001715
+MFI,B cell,Bcells.trait156,BAFF-R on naive-mature B cell,GCST90001716,ebi-a-GCST90001716
+MFI,B cell,Bcells.trait157,BAFF-R on unsw mem,GCST90001717,ebi-a-GCST90001717
+MFI,B cell,Bcells.trait159,BAFF-R on sw mem,GCST90001718,ebi-a-GCST90001718
+MFI,B cell,Bcells.trait160,BAFF-R on IgD+,GCST90001719,ebi-a-GCST90001719
+MFI,B cell,Bcells.trait161,BAFF-R on transitional,GCST90001720,ebi-a-GCST90001720
+MFI,B cell,Bcells.trait255,CD19 on CD20- ,GCST90001721,ebi-a-GCST90001721
+MFI,B cell,Bcells.trait282,CD19 on CD20- CD38- ,GCST90001722,ebi-a-GCST90001722
+MFI,B cell,Bcells.trait283,CD19 on CD24+ CD27+,GCST90001723,ebi-a-GCST90001723
+MFI,B cell,Bcells.trait308,CD19 on IgD+ CD24+,GCST90001724,ebi-a-GCST90001724
+MFI,B cell,Bcells.trait309,CD19 on IgD+ CD24-,GCST90001725,ebi-a-GCST90001725
+MFI,B cell,Bcells.trait310,CD19 on IgD+ CD38-,GCST90001726,ebi-a-GCST90001726
+MFI,B cell,Bcells.trait311,CD19 on IgD+ CD38- naive,GCST90001727,ebi-a-GCST90001727
+MFI,B cell,Bcells.trait312,CD19 on IgD+ CD38- unsw mem,GCST90001728,ebi-a-GCST90001728
+MFI,B cell,Bcells.trait313,CD19 on IgD+ CD38br,GCST90001729,ebi-a-GCST90001729
+MFI,B cell,Bcells.trait314,CD19 on IgD+ CD38dim,GCST90001730,ebi-a-GCST90001730
+MFI,B cell,Bcells.trait318,CD19 on IgD- CD24-,GCST90001731,ebi-a-GCST90001731
+MFI,B cell,Bcells.trait319,CD19 on IgD- CD27-,GCST90001732,ebi-a-GCST90001732
+MFI,B cell,Bcells.trait320,CD19 on IgD- CD38-,GCST90001733,ebi-a-GCST90001733
+MFI,B cell,Bcells.trait321,CD19 on IgD- CD38br,GCST90001734,ebi-a-GCST90001734
+MFI,B cell,Bcells.trait322,CD19 on IgD- CD38dim,GCST90001735,ebi-a-GCST90001735
+MFI,B cell,Bcells.trait325,CD19 on memory B cell,GCST90001736,ebi-a-GCST90001736
+MFI,B cell,Bcells.trait327,CD19 on naive-mature B cell,GCST90001737,ebi-a-GCST90001737
+MFI,B cell,Bcells.trait328,CD19 on unsw mem,GCST90001738,ebi-a-GCST90001738
+MFI,B cell,Bcells.trait329,CD19 on PB/PC,GCST90001739,ebi-a-GCST90001739
+MFI,B cell,Bcells.trait331,CD19 on sw mem,GCST90001740,ebi-a-GCST90001740
+MFI,B cell,Bcells.trait332,CD19 on IgD+,GCST90001741,ebi-a-GCST90001741
+MFI,B cell,Bcells.trait333,CD19 on transitional,GCST90001742,ebi-a-GCST90001742
+MFI,B cell,Bcells.trait335,CD20 on B cell,GCST90001743,ebi-a-GCST90001743
+MFI,B cell,Bcells.trait354,CD20 on CD20- CD38-,GCST90001744,ebi-a-GCST90001744
+MFI,B cell,Bcells.trait355,CD20 on CD24+ CD27+,GCST90001745,ebi-a-GCST90001745
+MFI,B cell,Bcells.trait378,CD20 on IgD+ CD24+,GCST90001746,ebi-a-GCST90001746
+MFI,B cell,Bcells.trait379,CD20 on IgD+ CD24-,GCST90001747,ebi-a-GCST90001747
+MFI,B cell,Bcells.trait380,CD20 on IgD+ CD38-,GCST90001748,ebi-a-GCST90001748
+MFI,B cell,Bcells.trait381,CD20 on IgD+ CD38- naive,GCST90001749,ebi-a-GCST90001749
+MFI,B cell,Bcells.trait382,CD20 on IgD+ CD38- unsw mem,GCST90001750,ebi-a-GCST90001750
+MFI,B cell,Bcells.trait383,CD20 on IgD+ CD38br,GCST90001751,ebi-a-GCST90001751
+MFI,B cell,Bcells.trait384,CD20 on IgD+ CD38dim,GCST90001752,ebi-a-GCST90001752
+MFI,B cell,Bcells.trait388,CD20 on IgD- CD24-,GCST90001753,ebi-a-GCST90001753
+MFI,B cell,Bcells.trait389,CD20 on IgD- CD27-,GCST90001754,ebi-a-GCST90001754
+MFI,B cell,Bcells.trait390,CD20 on IgD- CD38-,GCST90001755,ebi-a-GCST90001755
+MFI,B cell,Bcells.trait391,CD20 on IgD- CD38br,GCST90001756,ebi-a-GCST90001756
+MFI,B cell,Bcells.trait392,CD20 on IgD- CD38dim,GCST90001757,ebi-a-GCST90001757
+MFI,B cell,Bcells.trait395,CD20 on memory B cell,GCST90001758,ebi-a-GCST90001758
+MFI,B cell,Bcells.trait397,CD20 on naive-mature B cell,GCST90001759,ebi-a-GCST90001759
+MFI,B cell,Bcells.trait398,CD20 on unsw mem,GCST90001760,ebi-a-GCST90001760
+MFI,B cell,Bcells.trait399,CD20 on sw mem,GCST90001761,ebi-a-GCST90001761
+MFI,B cell,Bcells.trait400,CD20 on IgD+,GCST90001762,ebi-a-GCST90001762
+MFI,B cell,Bcells.trait401,CD20 on transitional,GCST90001763,ebi-a-GCST90001763
+MFI,B cell,Bcells.trait418,CD24 on CD24+ CD27+,GCST90001764,ebi-a-GCST90001764
+MFI,B cell,Bcells.trait438,CD24 on IgD+ CD24+,GCST90001765,ebi-a-GCST90001765
+MFI,B cell,Bcells.trait439,CD24 on IgD+ CD38-,GCST90001766,ebi-a-GCST90001766
+MFI,B cell,Bcells.trait441,CD24 on IgD+ CD38- unsw mem,GCST90001767,ebi-a-GCST90001767
+MFI,B cell,Bcells.trait442,CD24 on IgD+ CD38br,GCST90001768,ebi-a-GCST90001768
+MFI,B cell,Bcells.trait445,CD24 on IgD- CD38-,GCST90001769,ebi-a-GCST90001769
+MFI,B cell,Bcells.trait446,CD24 on IgD- CD38dim,GCST90001770,ebi-a-GCST90001770
+MFI,B cell,Bcells.trait448,CD24 on memory B cell,GCST90001771,ebi-a-GCST90001771
+MFI,B cell,Bcells.trait449,CD24 on unsw mem,GCST90001772,ebi-a-GCST90001772
+MFI,B cell,Bcells.trait450,CD24 on sw mem,GCST90001773,ebi-a-GCST90001773
+MFI,B cell,Bcells.trait451,CD24 on transitional,GCST90001774,ebi-a-GCST90001774
+MFI,B cell,Bcells.trait453,CD25 on B cell,GCST90001775,ebi-a-GCST90001775
+MFI,B cell,Bcells.trait470,CD25 on CD20- CD38-,GCST90001776,ebi-a-GCST90001776
+MFI,B cell,Bcells.trait471,CD25 on CD24+ CD27+,GCST90001777,ebi-a-GCST90001777
+MFI,B cell,Bcells.trait490,CD25 on IgD+ CD24+,GCST90001778,ebi-a-GCST90001778
+MFI,B cell,Bcells.trait491,CD25 on IgD+ CD24-,GCST90001779,ebi-a-GCST90001779
+MFI,B cell,Bcells.trait492,CD25 on IgD+ CD38-,GCST90001780,ebi-a-GCST90001780
+MFI,B cell,Bcells.trait493,CD25 on IgD+ CD38- naive,GCST90001781,ebi-a-GCST90001781
+MFI,B cell,Bcells.trait494,CD25 on IgD+ CD38- unsw mem,GCST90001782,ebi-a-GCST90001782
+MFI,B cell,Bcells.trait495,CD25 on IgD+ CD38br,GCST90001783,ebi-a-GCST90001783
+MFI,B cell,Bcells.trait496,CD25 on IgD+ CD38dim,GCST90001784,ebi-a-GCST90001784
+MFI,B cell,Bcells.trait500,CD25 on IgD- CD24-,GCST90001785,ebi-a-GCST90001785
+MFI,B cell,Bcells.trait501,CD25 on IgD- CD27-,GCST90001786,ebi-a-GCST90001786
+MFI,B cell,Bcells.trait502,CD25 on IgD- CD38-,GCST90001787,ebi-a-GCST90001787
+MFI,B cell,Bcells.trait503,CD25 on IgD- CD38br,GCST90001788,ebi-a-GCST90001788
+MFI,B cell,Bcells.trait504,CD25 on IgD- CD38dim,GCST90001789,ebi-a-GCST90001789
+MFI,B cell,Bcells.trait506,CD25 on memory B cell,GCST90001790,ebi-a-GCST90001790
+MFI,B cell,Bcells.trait508,CD25 on naive-mature B cell,GCST90001791,ebi-a-GCST90001791
+MFI,B cell,Bcells.trait509,CD25 on unsw mem,GCST90001792,ebi-a-GCST90001792
+MFI,B cell,Bcells.trait510,CD25 on sw mem,GCST90001793,ebi-a-GCST90001793
+MFI,B cell,Bcells.trait511,CD25 on IgD+,GCST90001794,ebi-a-GCST90001794
+MFI,B cell,Bcells.trait512,CD25 on transitional,GCST90001795,ebi-a-GCST90001795
+MFI,B cell,Bcells.trait514,CD27 on CD20-,GCST90001796,ebi-a-GCST90001796
+MFI,B cell,Bcells.trait536,CD27 on CD20- CD38-,GCST90001797,ebi-a-GCST90001797
+MFI,B cell,Bcells.trait537,CD27 on CD24+ CD27+,GCST90001798,ebi-a-GCST90001798
+MFI,B cell,Bcells.trait539,CD27 on T cell,GCST90001799,ebi-a-GCST90001799
+MFI,B cell,Bcells.trait561,CD27 on IgD+ CD24+,GCST90001800,ebi-a-GCST90001800
+MFI,B cell,Bcells.trait563,CD27 on IgD+ CD38- unsw mem,GCST90001801,ebi-a-GCST90001801
+MFI,B cell,Bcells.trait565,CD27 on IgD- CD38-,GCST90001802,ebi-a-GCST90001802
+MFI,B cell,Bcells.trait566,CD27 on IgD- CD38br,GCST90001803,ebi-a-GCST90001803
+MFI,B cell,Bcells.trait567,CD27 on IgD- CD38dim,GCST90001804,ebi-a-GCST90001804
+MFI,B cell,Bcells.trait570,CD27 on memory B cell,GCST90001805,ebi-a-GCST90001805
+MFI,B cell,Bcells.trait571,CD27 on unsw mem,GCST90001806,ebi-a-GCST90001806
+MFI,B cell,Bcells.trait572,CD27 on PB/PC,GCST90001807,ebi-a-GCST90001807
+MFI,B cell,Bcells.trait574,CD27 on sw mem,GCST90001808,ebi-a-GCST90001808
+MFI,B cell,Bcells.trait597,CD38 on CD20-,GCST90001809,ebi-a-GCST90001809
+MFI,B cell,Bcells.trait619,CD38 on CD3- CD19-,GCST90001810,ebi-a-GCST90001810
+MFI,B cell,Bcells.trait637,CD38 on IgD+ CD24-,GCST90001811,ebi-a-GCST90001811
+MFI,B cell,Bcells.trait640,CD38 on IgD+ CD38br,GCST90001812,ebi-a-GCST90001812
+MFI,B cell,Bcells.trait641,CD38 on IgD+ CD38dim,GCST90001813,ebi-a-GCST90001813
+MFI,B cell,Bcells.trait643,CD38 on IgD- CD38br,GCST90001814,ebi-a-GCST90001814
+MFI,B cell,Bcells.trait644,CD38 on IgD- CD38dim,GCST90001815,ebi-a-GCST90001815
+MFI,B cell,Bcells.trait646,CD38 on naive-mature B cell,GCST90001816,ebi-a-GCST90001816
+MFI,B cell,Bcells.trait647,CD38 on PB/PC,GCST90001817,ebi-a-GCST90001817
+MFI,B cell,Bcells.trait649,CD38 on IgD+,GCST90001818,ebi-a-GCST90001818
+MFI,B cell,Bcells.trait650,CD38 on transitional,GCST90001819,ebi-a-GCST90001819
+MFI,B cell,Bcells.trait775,IgD on IgD+ CD24+,GCST90001820,ebi-a-GCST90001820
+MFI,B cell,Bcells.trait776,IgD on IgD+ CD24-,GCST90001821,ebi-a-GCST90001821
+MFI,B cell,Bcells.trait777,IgD on IgD+ CD38-,GCST90001822,ebi-a-GCST90001822
+MFI,B cell,Bcells.trait779,IgD on IgD+ CD38- unsw mem,GCST90001823,ebi-a-GCST90001823
+MFI,B cell,Bcells.trait780,IgD on IgD+ CD38br,GCST90001824,ebi-a-GCST90001824
+MFI,B cell,Bcells.trait781,IgD on IgD+ CD38dim,GCST90001825,ebi-a-GCST90001825
+MFI,B cell,Bcells.trait785,IgD on unsw mem,GCST90001826,ebi-a-GCST90001826
+MFI,B cell,Bcells.trait786,IgD on IgD+,GCST90001827,ebi-a-GCST90001827
+MFI,B cell,Bcells.trait787,IgD on transitional,GCST90001828,ebi-a-GCST90001828
+MFI,B cell,Bcells.trait84,BAFF-R on B cell,GCST90001829,ebi-a-GCST90001829
+MFI,B cell,Bcells.trait85,BAFF-R on CD20-,GCST90001830,ebi-a-GCST90001830
