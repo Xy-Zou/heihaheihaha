@@ -24,7 +24,7 @@ library(MRPRESSO)
 library(parallel)
 
 # ========== 2. 读取 immune cell GWAS ID 列表 ========== 
-immune_list_file <- "data/731_immune_cell/ICgwasid.csv"
+immune_list_file <- "data/731_immune_cell/ICgwas-b-id.csv"
 datalist <- read.table(
   file         = immune_list_file,
   header       = TRUE,
@@ -207,7 +207,7 @@ for (out_file in outcome_files) {
       
       return(final_res)
     },
-    mc.cores = 4  # <<--- 这里手动限定为4个核心并行
+    mc.cores = 5  # <<--- 这里手动限定为4个核心并行
     #windows
     #library(parallel),
     #available_cores <- detectCores(),
