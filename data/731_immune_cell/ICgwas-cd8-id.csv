@@ -1,0 +1,80 @@
+Trait type,Panel,Statistical trait name,Trait,tr,id
+Absolute count,Maturation stages of T cell,MT_ry_Trait514,CD45RA- CD4+ AC,GCST90001534,ebi-a-GCST90001534
+Relative count,Maturation stages of T cell,MT_ry_Trait515,CD45RA- CD4+ %CD4+,GCST90001535,ebi-a-GCST90001535
+Relative count,Maturation stages of T cell,MT_ry_Trait516,CD45RA- CD4+ %T cell,GCST90001536,ebi-a-GCST90001536
+Absolute count,Maturation stages of T cell,MT_Trait503,CM CD4+ AC,GCST90001537,ebi-a-GCST90001537
+Relative count,Maturation stages of T cell,MT_Trait504,CM CD4+ %CD4+,GCST90001538,ebi-a-GCST90001538
+Relative count,Maturation stages of T cell,MT_Trait505,CM CD4+ %T cell,GCST90001539,ebi-a-GCST90001539
+Absolute count,Maturation stages of T cell,MT_Trait506,Naive CD4+ AC,GCST90001540,ebi-a-GCST90001540
+Relative count,Maturation stages of T cell,MT_Trait507,Naive CD4+ %CD4+,GCST90001541,ebi-a-GCST90001541
+Absolute count,Maturation stages of T cell,MT_Trait508,EM CD4+ AC,GCST90001542,ebi-a-GCST90001542
+Relative count,Maturation stages of T cell,MT_Trait509,EM CD4+ %CD4+,GCST90001543,ebi-a-GCST90001543
+Relative count,Maturation stages of T cell,MT_Trait510,EM CD4+ %T cell,GCST90001544,ebi-a-GCST90001544
+Absolute count,Maturation stages of T cell,MT_Trait511,TD CD4+ AC,GCST90001545,ebi-a-GCST90001545
+Relative count,Maturation stages of T cell,MT_Trait512,TD CD4+ %CD4+,GCST90001546,ebi-a-GCST90001546
+Relative count,Maturation stages of T cell,MT_Trait513,TD CD4+ %T cell,GCST90001547,ebi-a-GCST90001547
+Absolute count,Maturation stages of T cell,MT_Trait522,CM CD8br AC,GCST90001548,ebi-a-GCST90001548
+Relative count,Maturation stages of T cell,MT_Trait523,CM  CD8br %CD8br,GCST90001549,ebi-a-GCST90001549
+Relative count,Maturation stages of T cell,MT_Trait524,CM CD8br %T cell,GCST90001550,ebi-a-GCST90001550
+Absolute count,Maturation stages of T cell,MT_Trait525,Naive CD8br AC,GCST90001551,ebi-a-GCST90001551
+Relative count,Maturation stages of T cell,MT_Trait526,Naive  CD8br %CD8br,GCST90001552,ebi-a-GCST90001552
+Relative count,Maturation stages of T cell,MT_Trait527,Naive CD8br %T cell,GCST90001553,ebi-a-GCST90001553
+Absolute count,Maturation stages of T cell,MT_Trait528,EM CD8br AC,GCST90001554,ebi-a-GCST90001554
+Relative count,Maturation stages of T cell,MT_Trait529,EM CD8br %CD8br,GCST90001555,ebi-a-GCST90001555
+Relative count,Maturation stages of T cell,MT_Trait530,EM CD8br %T cell,GCST90001556,ebi-a-GCST90001556
+Absolute count,Maturation stages of T cell,MT_Trait531,TD CD8br AC,GCST90001557,ebi-a-GCST90001557
+Relative count,Maturation stages of T cell,MT_Trait532,TD  CD8br %CD8br,GCST90001558,ebi-a-GCST90001558
+Relative count,Maturation stages of T cell,MT_Trait533,TD CD8br %T cell,GCST90001559,ebi-a-GCST90001559
+Absolute count,Maturation stages of T cell,MT_Trait537,CD45RA+ CD8br AC,GCST90001560,ebi-a-GCST90001560
+Relative count,Maturation stages of T cell,MT_Trait538,CD45RA+ CD8br  %CD8br,GCST90001561,ebi-a-GCST90001561
+Relative count,Maturation stages of T cell,MT_Trait539,CD45RA+ CD8br %T cell,GCST90001562,ebi-a-GCST90001562
+Absolute count,Maturation stages of T cell,MT_Trait542,CM DN (CD4-CD8-) AC,GCST90001563,ebi-a-GCST90001563
+Relative count,Maturation stages of T cell,MT_Trait543,CM DN (CD4-CD8-) %DN,GCST90001564,ebi-a-GCST90001564
+Relative count,Maturation stages of T cell,MT_Trait544,CM DN (CD4-CD8-) %T cell,GCST90001565,ebi-a-GCST90001565
+Absolute count,Maturation stages of T cell,MT_Trait545,Naive DN (CD4-CD8-) AC,GCST90001566,ebi-a-GCST90001566
+Relative count,Maturation stages of T cell,MT_Trait546,Naive DN (CD4-CD8-) %DN,GCST90001567,ebi-a-GCST90001567
+Relative count,Maturation stages of T cell,MT_Trait547,Naive DN (CD4-CD8-) %T cell,GCST90001568,ebi-a-GCST90001568
+Absolute count,Maturation stages of T cell,MT_Trait548,EM DN (CD4-CD8-) AC,GCST90001569,ebi-a-GCST90001569
+Relative count,Maturation stages of T cell,MT_Trait549,EM DN (CD4-CD8-) %DN,GCST90001570,ebi-a-GCST90001570
+Relative count,Maturation stages of T cell,MT_Trait550,EM DN (CD4-CD8-) %T cell,GCST90001571,ebi-a-GCST90001571
+Absolute count,Maturation stages of T cell,MT_Trait551,TD DN (CD4-CD8-) AC,GCST90001572,ebi-a-GCST90001572
+Relative count,Maturation stages of T cell,MT_Trait552,TD DN (CD4-CD8-) %DN,GCST90001573,ebi-a-GCST90001573
+Relative count,Maturation stages of T cell,MT_Trait553,TD DN (CD4-CD8-) %T cell,GCST90001574,ebi-a-GCST90001574
+Relative count,Maturation stages of T cell,MT_Trait560,Naive CD4+  %T cell,GCST90001575,ebi-a-GCST90001575
+MFI,Maturation stages of T cell,Blue.530.30.MT.trait10,CD3 on naive CD8br  ,GCST90001838,ebi-a-GCST90001838
+MFI,Maturation stages of T cell,Blue.530.30.MT.trait11,CD3 on EM CD8br  ,GCST90001839,ebi-a-GCST90001839
+MFI,Maturation stages of T cell,Blue.530.30.MT.trait12,CD3 on TD CD8br,GCST90001840,ebi-a-GCST90001840
+MFI,Maturation stages of T cell,Blue.530.30.MT.trait3,CD3 on CM CD4+,GCST90001841,ebi-a-GCST90001841
+MFI,Maturation stages of T cell,Blue.530.30.MT.trait4,CD3 on Naive CD4+,GCST90001842,ebi-a-GCST90001842
+MFI,Maturation stages of T cell,Blue.530.30.MT.trait5,CD3 on EM CD4+ ,GCST90001843,ebi-a-GCST90001843
+MFI,Maturation stages of T cell,Blue.530.30.MT.trait6,CD3 on TD CD4+,GCST90001844,ebi-a-GCST90001844
+MFI,Maturation stages of T cell,Blue.530.30.MT.trait7,CD3 on CD45RA- CD4+,GCST90001845,ebi-a-GCST90001845
+MFI,Maturation stages of T cell,Blue.530.30.MT.trait9,CD3 on CM CD8br  ,GCST90001846,ebi-a-GCST90001846
+MFI,Maturation stages of T cell,HVEM1000_150630.trait1,HVEM on T cell,GCST90001871,ebi-a-GCST90001871
+MFI,Maturation stages of T cell,HVEM1000_150630.trait10,HVEM on naive CD8br ,GCST90001872,ebi-a-GCST90001872
+MFI,Maturation stages of T cell,HVEM1000_150630.trait11,HVEM on EM CD8br ,GCST90001873,ebi-a-GCST90001873
+MFI,Maturation stages of T cell,HVEM1000_150630.trait12,HVEM on TD CD8br ,GCST90001874,ebi-a-GCST90001874
+MFI,Maturation stages of T cell,HVEM1000_150630.trait2,HVEM on CD4+ ,GCST90001875,ebi-a-GCST90001875
+MFI,Maturation stages of T cell,HVEM1000_150630.trait3,HVEM on CM CD4+,GCST90001876,ebi-a-GCST90001876
+MFI,Maturation stages of T cell,HVEM1000_150630.trait4,HVEM on naive CD4+,GCST90001877,ebi-a-GCST90001877
+MFI,Maturation stages of T cell,HVEM1000_150630.trait5,HVEM on EM CD4+,GCST90001878,ebi-a-GCST90001878
+MFI,Maturation stages of T cell,HVEM1000_150630.trait6,HVEM on TD CD4+,GCST90001879,ebi-a-GCST90001879
+MFI,Maturation stages of T cell,HVEM1000_150630.trait7,HVEM on CD45RA- CD4+,GCST90001880,ebi-a-GCST90001880
+MFI,Maturation stages of T cell,HVEM1000_150630.trait8,HVEM on CD8br,GCST90001881,ebi-a-GCST90001881
+MFI,Maturation stages of T cell,HVEM1000_150630.trait9,HVEM on CM CD8br,GCST90001882,ebi-a-GCST90001882
+MFI,Maturation stages of T cell,Blue.670.LP.MT.trait1,CCR7 on naive CD4+,GCST90001907,ebi-a-GCST90001907
+MFI,Maturation stages of T cell,Blue.670.LP.MT.trait3,CCR7 on naive CD8br,GCST90001908,ebi-a-GCST90001908
+MFI,Maturation stages of T cell,Red.660.20.MT.trait1,CD4 on CD4+  ,GCST90002022,ebi-a-GCST90002022
+MFI,Maturation stages of T cell,Red.660.20.MT.trait2,CD4 on CM CD4 +,GCST90002023,ebi-a-GCST90002023
+MFI,Maturation stages of T cell,Red.660.20.MT.trait3,CD4 on naive CD4+ ,GCST90002024,ebi-a-GCST90002024
+MFI,Maturation stages of T cell,Red.660.20.MT.trait4,CD4 on EM CD4+ ,GCST90002025,ebi-a-GCST90002025
+MFI,Maturation stages of T cell,Red.660.20.MT.trait5,CD4 on TD CD4+  ,GCST90002026,ebi-a-GCST90002026
+MFI,Maturation stages of T cell,Red.660.20.MT.trait6,CD4 on CD45RA+ CD4+  ,GCST90002027,ebi-a-GCST90002027
+MFI,Maturation stages of T cell,Red.780.60.MT.trait2,CD8 on CM CD8br ,GCST90002054,ebi-a-GCST90002054
+MFI,Maturation stages of T cell,Red.780.60.MT.trait3,CD8 on naive CD8br,GCST90002055,ebi-a-GCST90002055
+MFI,Maturation stages of T cell,Red.780.60.MT.trait4,CD8 on EM CD8br  ,GCST90002056,ebi-a-GCST90002056
+MFI,Maturation stages of T cell,Red.780.60.MT.trait5,CD8 on TD CD8br,GCST90002057,ebi-a-GCST90002057
+MFI,Maturation stages of T cell,Violet.450.50.MT.trait1,CD45RA on naive CD4+ ,GCST90002098,ebi-a-GCST90002098
+MFI,Maturation stages of T cell,Violet.450.50.MT.trait2,CD4RA on TD CD4+ ,GCST90002099,ebi-a-GCST90002099
+MFI,Maturation stages of T cell,Violet.450.50.MT.trait3,CD45RA on naive CD8br,GCST90002100,ebi-a-GCST90002100
+MFI,Maturation stages of T cell,Violet.450.50.MT.trait4,CD45RA on TD CD8br,GCST90002101,ebi-a-GCST90002101
