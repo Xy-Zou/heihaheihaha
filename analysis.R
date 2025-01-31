@@ -24,7 +24,7 @@ library(MRPRESSO)
 library(parallel)
 
 # ========== 2. 读取 immune cell GWAS ID 列表 ========== 
-immune_list_file <- "data/731_immune_cell/ICgwas-b-id.csv"
+immune_list_file <- "data/731_immune_cell/ICgwas-cd8-id.csv"
 datalist <- read.table(
   file         = immune_list_file,
   header       = TRUE,
